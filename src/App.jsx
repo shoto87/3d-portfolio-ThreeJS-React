@@ -15,14 +15,17 @@ const App = () => {
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <Hero />
           <Navbar />
-          <About />
-          <Experience />
-          <Feedbacks />
-          <Tech />
-          <Works />
+          <Hero />
+        </div>
+        <About />
+        <Experience />
+        <Works />
+        <Tech />
+        <Feedbacks />
+        <div className="relative z-0">
           <Contact />
+
           <StarsCanvas />
         </div>
       </div>
